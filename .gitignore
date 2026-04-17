@@ -1,0 +1,26 @@
+# 1. 虚拟环境与 Python 缓存
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. 庞大的历史数据库 (GitHub 限制单文件 100MB)
+# 必须忽略这个大文件，建议在 README 中提供数据源下载链接
+tennisabstract-v2-combined.csv
+
+# 3. 动态生成的 PCSP 模型文件
+# 你的代码每次跑战术都会生成类似 RH_RH_2021-02-21...pcsp 的文件
+# 我们忽略所有带日期的生成文件，但保留你的底层模板和几个原始的 Model 文件
+*_*_*.pcsp
+*_Counterfactual_*.pcsp
+
+# 4. 运行时产生的临时结果文件
+pat_result_temp.txt
+
+# 5. 环境变量与机密文件
+.env
+
+# 6. 操作系统生成的垃圾文件
+.DS_Store
+Thumbs.db

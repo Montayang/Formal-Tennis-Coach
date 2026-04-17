@@ -1,0 +1,22 @@
+Script 1：
+
+You :
+"Hi Coach, I'm Novak Djokovic. I'm playing Daniil Medvedev soon. Any suggestions?"
+
+AI Coach :
+"Hello Novak! I'd be glad to help you prepare. To run the simulation accurately, could you please tell me the exact date of the match you're referring to (e.g., 2021-02-21)?"
+
+You :
+"Ah right, the date is 2021-02-21. What if I aggressively target his wide side on my deuce court first serve? I don't mind taking a little more risk and increasing my fault rate slightly."
+
+
+Script 2：(Conservative Strategy Demo)
+
+You :
+"I am Roger Federer. I am playing Rafael Nadal on 2019-07-12. What if I adopt a highly conservative approach on my second serves? I want to drastically reduce my double faults, even if it means serving safely to the body and letting him dictate the rally early on. Will this raise my guaranteed win floor?"
+
+
+Script 3：(Baseline Rally Overload Demo)
+
+You :
+"I'm Dominic Thiem, playing Rafael Nadal on 2018-09-04. My coach told me to avoid his forehand at all costs during baseline rallies. If I force every single groundstroke from the mid-court strictly towards his backhand side, even if it leads to a few more unforced errors on my end, does the math support this tactic?"
